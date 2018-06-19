@@ -1,0 +1,18 @@
+[
+  {
+    "version": "en",
+    "days": "days",
+    "hours": "hours",
+    "mins": "minutes",
+    "secs": "seconds",
+    "fin": "Sale Now On!"
+  },
+  {
+    "version": "fr",
+    "days": "journées",
+    "hours": "heures",
+    "mins": "minutes",
+    "secs": "secondes",
+    "fin": "Vente Maintenant sur!"
+  }
+]

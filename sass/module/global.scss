@@ -1,0 +1,38 @@
+$viewportLarge: 1440px;
+$viewportTablet: 1024px;
+$viewportTabletMini: 768px;
+$viewportMobile: 480px;
+
+.clock-wrapper{
+  #clock{
+      font-family: sans-serif;
+      color: #000;
+      display: inline-block;
+      font-weight: 100;
+      text-align: center;
+      font-size: 18px;
+      div{
+          display: inline-block;
+          .smalltext{
+              padding-top: 5px;
+              font-size: 16px;
+          }
+      }
+  }
+
+  .clock-finish{
+    font-family: sans-serif;
+    display: none;
+    font-size:16px;
+    font-weight:100;
+    padding-top: 5px;
+  }
+  &.time-reached{
+    .clock-finish{
+      display:inline-block;
+    }
+    #clock{
+      display:none;
+    }
+  }
+}
